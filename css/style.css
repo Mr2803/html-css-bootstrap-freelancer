@@ -77,3 +77,15 @@ a.logo{
   text-align: center;
   background: #1ABC9C;
 }
+
+
+.container-fluid.footer .row:first-child{
+  background:#2C3E50;
+  min-height: 300px;
+}
+
+.container-fluid.footer .row.bottom{
+  background:#1A252F;
+  text-align: center;
+  min-height: 70px;
+}
