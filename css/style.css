@@ -1,7 +1,4 @@
-.container-fluid{
-  min-height: 600px;
 
-}
 
 a {
   text-decoration: none;
@@ -78,10 +75,33 @@ a.logo{
   background: #1ABC9C;
 }
 
+/* footer */
 
+.container-fluid.footer{
+  margin-top: 50px;
+}
 .container-fluid.footer .row:first-child{
   background:#2C3E50;
   min-height: 300px;
+  text-align: center;
+}
+
+.container-fluid.footer .row .container .row{
+  padding-top: 30px;
+}
+
+.container-fluid.footer h4,
+.container-fluid.footer p{
+  color:white;
+}
+
+.container-fluid.footer h4{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.container-fluid.footer p{
+  font-size: 20px;
 }
 
 .container-fluid.footer .row.bottom{
