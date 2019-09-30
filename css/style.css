@@ -12,6 +12,10 @@ color:#2C3E50;
 font-weight: bold;
 }
 
+h3.menu{
+  display:none;
+}
+
 /* header */
 .navbar  a{
  font-size: 20px;
@@ -21,7 +25,7 @@ a.logo{
   display:inline-block;
   margin-left: 40%;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .row.navbar{
@@ -31,7 +35,12 @@ a.logo{
   border:1px solid white;
   background:#2C3E50;
   margin-bottom:0;
+  position:fixed;
+  top:0;
+  width: 100%;
+  z-index: 50;
 }
+
 
 .navbar ul{
   margin-left: 10%;
@@ -45,6 +54,7 @@ a.logo{
 }
 
 .row.bg-header{
+  margin-top:100px;
   min-height: 700px;
   background-color: #1ABC9C;
   text-align: center;
@@ -52,7 +62,7 @@ a.logo{
 }
 
 .row.bg-header img{
-  width: 12%;
+  width: 15%;
   margin-top: 50px;
 }
 
@@ -187,6 +197,24 @@ a.logo{
 
 
 @media screen and (max-width: 991px){
+
+  h3.menu{
+    display:inline-block;
+    border:2px solid white;
+    padding:10px;
+    border-radius: 10px;
+    background-color: #1ABC9C;
+    margin-left: 50%;
+    margin-top: 0;
+  }
+
+  .navbar ul{
+    display:none;
+  }
+
+  .row.bg-header img{
+    width: 30%;
+  }
 
   .row [class*="col-"] img{
     width: 60%;
