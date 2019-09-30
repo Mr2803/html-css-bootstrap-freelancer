@@ -16,7 +16,6 @@ display:block;
 
 
 
-
 h3.menu{
   display:none;
 }
@@ -43,8 +42,8 @@ a.logo{
   min-height: 100px;
   color:white;
   background:#2C3E50;
-  margin-bottom:0;
   position:fixed;
+  margin-bottom:0;
   border-radius:0;
   top:0;
   width: 100%;
@@ -170,6 +169,14 @@ a.logo{
   display:inline-block;
   padding: 10px 30px;
   border-radius: 10px;
+}
+
+.download:hover{
+  background-color: #F8F9FA;
+}
+
+.download:hover p{
+  color:#2C3E50;
 }
 
 
