@@ -76,12 +76,30 @@ a.logo{
   padding:10px;
 }
 
+/* ABOUT */
+
 .container-fluid.about{
   min-height: 500px;
   padding:5%;
-  text-align: center;
+  text-align: left;
   background: #1ABC9C;
 }
+
+.container-fluid.about p{
+  color:white;
+  font-size: 20px;
+}
+
+.download{
+  text-align:center;
+  border: 2px solid white;
+  display:inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 40%;
+}
+
+
 
 /* CONTACT */
 
@@ -169,6 +187,10 @@ a.logo{
 
 
 @media screen and (max-width: 991px){
+
+  .row [class*="col-"] img{
+    width: 60%;
+  }
 
   .central-margin{
     margin-top:40px;
