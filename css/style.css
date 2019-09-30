@@ -5,11 +5,13 @@ a {
   color:white;
 }
 
-h2{text-align: center;
+h2{
+text-align: center;
 text-transform: uppercase;
 font-size: 40px;
 color:#2C3E50;
 font-weight: bold;
+display:block;
 }
 
 h3.menu{
@@ -61,6 +63,14 @@ a.logo{
   margin-bottom: 50px;
 }
 
+.fa-star{
+  font-size: 30px;
+  color:white;
+  margin-bottom: 20px;
+}
+
+
+
 .row.bg-header img{
   width: 15%;
   margin-top: 50px;
@@ -69,6 +79,12 @@ a.logo{
 .row.bg-header h1{
   color:white;
   font-size: 50px;
+  font-weight: bold;
+}
+
+.row.bg-header p{
+  color:white;
+  font-size: 20px;
 }
 
 
@@ -91,7 +107,6 @@ a.logo{
 .container-fluid.about{
   min-height: 500px;
   padding:5%;
-  text-align: left;
   background: #1ABC9C;
 }
 
@@ -100,13 +115,26 @@ a.logo{
   font-size: 20px;
 }
 
+
+.container-fluid.about .row .container,
+.container-fluid.about .row{
+  text-align: center;
+}
+
+.container-fluid.about .row .container .row{
+  text-align: left;
+}
+
+.container-fluid.about .row .container .row .download{
+  text-align: center;
+}
+
 .download{
   text-align:center;
   border: 2px solid white;
   display:inline-block;
-  padding: 10px;
+  padding: 10px 30px;
   border-radius: 10px;
-  margin-left: 40%;
 }
 
 
@@ -119,6 +147,14 @@ a.logo{
   font-size: 40px;
   color:#2C3E50;
   font-weight: bold;
+}
+
+.container-fluid.contact .row {
+  text-align: center;
+}
+
+.container-fluid.contact .row .container{
+  text-align: left;
 }
 
 .container-fluid.contact button{
@@ -205,7 +241,7 @@ a.logo{
     border-radius: 10px;
     background-color: #1ABC9C;
     margin-left: 50%;
-    margin-top: 0;
+    margin-top: -10px;
   }
 
   .navbar ul{
@@ -223,5 +259,12 @@ a.logo{
   .central-margin{
     margin-top:40px;
     margin-bottom: 40px;
+  }
+
+
+
+  .container-fluid.about .margin-top-bottom{
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
 }
