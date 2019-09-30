@@ -75,6 +75,23 @@ a.logo{
   background: #1ABC9C;
 }
 
+/* CONTACT */
+
+.container-fluid.contact h2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color:#2C3E50;
+  font-weight: bold;
+}
+
+.container-fluid.contact button{
+  background-color:#1ABC9C;
+  padding:20px;
+  font-size: 20px;
+  color:white;
+}
+
 /* footer */
 
 .container-fluid.footer{
@@ -107,7 +124,6 @@ a.logo{
 .container-fluid.footer i{
   font-size: 20px;
 }
-
 
 .radius{
   border-radius:50%;
