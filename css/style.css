@@ -91,16 +91,37 @@ a.logo{
 }
 
 .container-fluid.footer h4,
-.container-fluid.footer p{
+.container-fluid.footer p,
+.container-fluid.footer i{
   color:white;
 }
+
+.container-fluid.footer ul{
+  list-style-type: none;
+}
+
+.container-fluid.footer li{
+  display:inline-block;
+}
+
+.container-fluid.footer i{
+  font-size: 20px;
+}
+
+
+.radius{
+  border-radius:50%;
+  border: 2px solid white;
+  padding: 5px;
+}
+
 
 .container-fluid.footer h4{
   font-size: 25px;
   font-weight: bold;
 }
 
-.container-fluid.footer p{
+.container-fluid.footer .row .container .row p{
   font-size: 20px;
 }
 
@@ -108,4 +129,15 @@ a.logo{
   background:#1A252F;
   text-align: center;
   min-height: 70px;
+  padding-top: 20px;
+}
+
+
+
+@media screen and (max-width: 991px){
+
+  .central-margin{
+    margin-top:40px;
+    margin-bottom: 40px;
+  }
 }
