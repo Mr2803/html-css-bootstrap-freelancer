@@ -14,6 +14,9 @@ font-weight: bold;
 display:block;
 }
 
+
+
+
 h3.menu{
   display:none;
 }
@@ -21,6 +24,11 @@ h3.menu{
 /* header */
 .navbar  a{
  font-size: 20px;
+}
+
+.navbar a:hover{
+  color:#1ABC9C;
+  text-decoration: none;
 }
 
 a.logo{
@@ -34,10 +42,10 @@ a.logo{
   padding-top: 40px;
   min-height: 100px;
   color:white;
-  border:1px solid white;
   background:#2C3E50;
   margin-bottom:0;
   position:fixed;
+  border-radius:0;
   top:0;
   width: 100%;
   z-index: 50;
@@ -69,8 +77,6 @@ a.logo{
   margin-bottom: 20px;
 }
 
-
-
 .row.bg-header img{
   width: 15%;
   margin-top: 50px;
@@ -87,7 +93,7 @@ a.logo{
   font-size: 20px;
 }
 
-
+/* portfolio */
 .container-fluid.portfolio{
   min-height: 600px;
   text-align: center;
@@ -98,8 +104,36 @@ a.logo{
 }
 
 .row [class*="col-"] img{
-  width: 90%;
-  padding:10px;
+  width: 100%;
+}
+
+.div-img{
+  position:relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.layover-img{
+  position:absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background:rgba(26,188,156, 0.8);
+  opacity:0;
+}
+
+.div-img p{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  font-size: 200px;
+  color:white;
+}
+
+.div-img:hover .layover-img{
+  opacity:1;
 }
 
 /* ABOUT */
@@ -108,6 +142,7 @@ a.logo{
   min-height: 500px;
   padding:5%;
   background: #1ABC9C;
+  margin-top: 50px;
 }
 
 .container-fluid.about p{
@@ -140,6 +175,10 @@ a.logo{
 
 
 /* CONTACT */
+
+.container-fluid.contact{
+  margin-top: 50px;
+}
 
 .container-fluid.contact h2{
   text-align: center;
@@ -252,8 +291,15 @@ a.logo{
     width: 30%;
   }
 
-  .row [class*="col-"] img{
+  .div-img{
+    text-align: center;
     width: 60%;
+    margin-left: 20%;
+
+  }
+
+  .row [class*="col-"] img{
+    width: 100%;
   }
 
   .central-margin{
