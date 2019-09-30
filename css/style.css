@@ -3,10 +3,13 @@
 
 }
 
-
 a {
   text-decoration: none;
   color:white;
+}
+
+[class*="col-"]{
+  float:left;
 }
 
 .navbar  a{
@@ -44,6 +47,7 @@ a.logo{
   min-height: 700px;
   background-color: #1ABC9C;
   text-align: center;
+  margin-bottom: 40px;
 }
 
 .row.bg-header img{
@@ -54,5 +58,30 @@ a.logo{
 .row.bg-header h1{
   color:white;
   font-size: 50px;
-  
+}
+
+
+.container-fluid.second{
+  min-height: 600px;
+  background:red;
+  padding:5%;
+  text-align: center;
+}
+
+.container-fluid.second h2{
+  display:inline-block;
+}
+
+.raw.cont-sec{
+  height: 600px;
+  background:lightblue;
+}
+
+
+.raw.cont-sec [class*="col-"]{
+  height: 100px;
+  width: 100px;
+  background-color: lightgreen;
+  border: 1px solid black;
+
 }
