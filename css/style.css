@@ -43,6 +43,7 @@ a.logo{
   min-height: 700px;
   background-color: #1ABC9C;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .row.bg-header img{
@@ -56,17 +57,23 @@ a.logo{
 }
 
 
-.container-fluid.second{
+.container-fluid.portfolio{
   min-height: 600px;
-  padding:5%;
   text-align: center;
 }
 
-.container-fluid.second h2{
+.container-fluid.portfolio h2{
   display:inline-block;
 }
 
 .row [class*="col-"] img{
   width: 90%;
   padding:10px;
+}
+
+.container-fluid.about{
+  min-height: 500px;
+  padding:5%;
+  text-align: center;
+  background: #1ABC9C;
 }
