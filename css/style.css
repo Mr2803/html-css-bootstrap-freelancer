@@ -8,10 +8,6 @@ a {
   color:white;
 }
 
-[class*="col-"]{
-  float:left;
-}
-
 .navbar  a{
  font-size: 20px;
 }
@@ -47,7 +43,6 @@ a.logo{
   min-height: 700px;
   background-color: #1ABC9C;
   text-align: center;
-  margin-bottom: 40px;
 }
 
 .row.bg-header img{
@@ -63,7 +58,6 @@ a.logo{
 
 .container-fluid.second{
   min-height: 600px;
-  background:red;
   padding:5%;
   text-align: center;
 }
@@ -72,16 +66,7 @@ a.logo{
   display:inline-block;
 }
 
-.raw.cont-sec{
-  height: 600px;
-  background:lightblue;
-}
-
-
-.raw.cont-sec [class*="col-"]{
-  height: 100px;
-  width: 100px;
-  background-color: lightgreen;
-  border: 1px solid black;
-
+.row [class*="col-"] img{
+  width: 90%;
+  padding:10px;
 }
