@@ -158,11 +158,11 @@ a.logo{
   text-align: left;
 }
 
-.container-fluid.about .row .container .row .download{
+.container-fluid.about .row .container .row .change-color{
   text-align: center;
 }
 
-.download{
+.change-color{
   text-align:center;
   border: 2px solid white;
   display:inline-block;
@@ -170,11 +170,11 @@ a.logo{
   border-radius: 10px;
 }
 
-.download:hover{
+.change-color:hover{
   background-color: #F8F9FA;
 }
 
-.download:hover p{
+.change-color:hover p{
   color:#2C3E50;
 }
 
@@ -273,6 +273,10 @@ a.logo{
   text-align: center;
   min-height: 70px;
   padding-top: 20px;
+}
+
+li .change-color:hover i{
+  color:#1A252F;
 }
 
 
