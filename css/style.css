@@ -19,7 +19,6 @@ h3.menu{
   display:none;
 }
 
-
 .star-globale{
   width: 100%;
 }
@@ -65,7 +64,6 @@ a.logo{
   width: 100%;
   z-index: 50;
 }
-
 
 .navbar ul{
   margin-left: 10%;
@@ -151,6 +149,10 @@ a.logo{
   opacity:1;
 }
 
+.div-img:hover{
+  cursor: pointer;
+}
+
 /* ABOUT */
 
 .container-fluid.about{
@@ -164,7 +166,6 @@ a.logo{
   color:white;
   font-size: 20px;
 }
-
 
 .container-fluid.about .row .container,
 .container-fluid.about .row{
@@ -195,10 +196,7 @@ a.logo{
   color:#2C3E50;
 }
 
-
-
 /* CONTACT */
-
 .container-fluid.contact{
   margin-top: 50px;
 }
@@ -256,8 +254,11 @@ a.logo{
   opacity:1;
 }
 
-/* footer */
+.layover-global:hover{
+  cursor: pointer;
+}
 
+/* footer */
 .container-fluid.footer{
   margin-top: 50px;
 }
@@ -316,8 +317,7 @@ li .change-color:hover i{
   color:#1A252F;
 }
 
-
-
+/* MEDIA QUERY */
 @media screen and (max-width: 991px){
 
   h3.menu{
