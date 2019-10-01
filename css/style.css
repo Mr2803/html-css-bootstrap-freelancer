@@ -19,6 +19,23 @@ h3.menu{
   display:none;
 }
 
+
+.star-globale{
+  width: 100%;
+}
+
+.linea,
+.star{
+  display:inline-block;
+}
+
+.linea{
+  height:5px;
+  width:10%;
+  background: white;
+}
+
+
 /* header */
 .navbar  a{
  font-size: 20px;
